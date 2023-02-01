@@ -1,0 +1,30 @@
+:root {
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: sans-serif;
+
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  color: white;
+  /* background-color: hsl(203, 92%, 70%); */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-size: 16px;
+  background: linear-gradient(
+    to right,
+    hsl(300, 8%, 95%),
+    hsl(203, 92%, 75%)
+  );
+}
